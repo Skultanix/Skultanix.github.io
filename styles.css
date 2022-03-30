@@ -39,6 +39,7 @@ h2 {
 
 p {
     font-family: 'Roboto', sans-serif;
+    font-size: 15pt;
 }
 .skills-icon section {
     display: flexbox;
