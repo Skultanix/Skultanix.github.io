@@ -1,3 +1,70 @@
+body {
+    background-color: rgb(37, 35, 39);
+    color: whitesmoke;
+}
+div {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    margin-top: 0%;
+}
+#header {
+    margin-top: 2%;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.info {
+    margin-left: 16%;
+}
+
 h1 {
-    color: silver;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 48pt;
+    
+}
+
+h3 {
+    margin-top: 0%;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 0%;
+    font-size: 20pt;
+}
+
+h2 {
+    border-bottom: 1pt solid grey;
+    font-family: 'Noto Serif', serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+.skills-icon section {
+    display: flexbox;
+    flex-wrap: wrap;
+    align-items: center;
+}
+img {
+    display: block;
+    max-width: 200 px;
+    max-height: 200px;
+}
+button {
+    background-color: rgb(59, 52, 61);
+    border: none;
+    padding: 15px 32px;
+    border-radius: 15%;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: gray;
+
+}
+a {
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20pt;
+    text-decoration: none;
+
 }
