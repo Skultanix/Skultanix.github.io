@@ -69,3 +69,8 @@ a {
     text-decoration: none;
 
 }
+
+#icons {
+    display:flex;
+    flex-wrap: initial property;
+}
